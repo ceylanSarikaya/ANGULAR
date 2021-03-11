@@ -3,15 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './components/products/products.component';
-import { CategoryComponent } from './category/category.component';
-import { NaviComponent } from './navi/navi.component';
-import { ProductComponent } from './product/product.component';
+import{ProductComponent} from './components/product/product.component';
+import{CategoryComponent} from './components/category/category.component';
+import{NaviComponent} from './components/navi/navi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent,
+    ProductComponent,
     CategoryComponent,
     NaviComponent,
     ProductComponent
